@@ -3,12 +3,12 @@
 ## Group Information
 
 **Course**: COSC6047 - Introduction to Programming for Business  
-**Assignment Type**: Group Project ()
+**Assignment Type**: Group Project (Group 3)
 
 ### Team Members
-| 1 | ILHAM MAULANA SULAEMAN | 2802521680 |
-| 2 | NAZWA ANINDYA          | 2802554640 |
-| 3 | SILVIA CHOIRUNNISA     | 2802554413 |
+1. ILHAM MAULANA SULAEMAN 2802521680
+2. NAZWA ANINDYA 
+3. SILVIA CHOIRUNNISA
 
 ## Overview
 
