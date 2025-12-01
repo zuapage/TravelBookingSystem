@@ -6,9 +6,9 @@
 **Assignment Type**: Group Project (Group 3)
 
 ### Team Members
-1. ILHAM MAULANA SULAEMAN 2802521680
-2. NAZWA ANINDYA 
-3. SILVIA CHOIRUNNISA
+1. ILHAM MAULANA SULAEMAN  2802521680 
+2. NAZWA ANINDYA           2802554640 
+3. SILVIA CHOIRUNNISA      2802554413 
 
 ## Overview
 
@@ -154,56 +154,5 @@ git clone https://github.com/zuapage/TravelBookingSystem.git
 ```bash
 javac src/*.java
 java -cp src Main
-```
-## Testing
-
-### Test Data
-
-**Penerbangan:**
-- GA101: Jakarta → Surabaya, 2025-02-10, 4 seats, Rp850.000
-- GA102: Jakarta → Bali, 2025-02-10, 3 seats, Rp950.000
-- GA201: Surabaya → Jakarta, 2025-02-15, 2 seats, Rp850.000
-- GA301: Bali → Jakarta, 2025-02-12, 5 seats, Rp950.000
-
-**Hotel:**
-- H001: Grand Hotel Surabaya, 2025-02-10 to 2025-02-13, Rp650.000
-- H002: Luxury Resort Bali, 2025-02-10 to 2025-02-15, Rp1.200.000
-- H003: Business Hotel Jakarta, 2025-02-15 to 2025-02-18, Rp550.000
-
-### Test Cases
-
-**TC1: Cari Penerbangan**
-```
-Input: Jakarta, Surabaya, 2025-02-10
-Expected: GA101 ditampilkan dengan full details
-Status: PASS
-```
-
-**TC2: Pesan Penerbangan**
-```
-Input: GA101, Budi Santoso, 08123456789, 2 passengers
-Expected: Confirmation number generated, available seats reduced to 2
-Status: PASS
-```
-
-**TC3: Batalkan Reservasi**
-```
-Input: Confirmation number dari TC2
-Expected: Reservation cancelled, seats restored to 4
-Status: PASS
-```
-
-**TC4: Invalid Input**
-```
-Input: Invalid flight number
-Expected: Error message, re-prompt
-Status: PASS
-```
-
-**TC5: Cari Hotel**
-```
-Input: Bali, 2025-02-10, 2025-02-15
-Expected: H002 ditampilkan dengan full details
-Status: PASS
 ```
 
